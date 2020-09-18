@@ -8,7 +8,13 @@ body {
 h1 {
     font-size: 50px;
 }
-.name-highlight {
+h2 {
+    font-size: 40px;
+}
+p {
+    color:dimgray;
+}
+.organe-highlight {
     color:orange;
 }
 
@@ -36,4 +42,35 @@ section {
     border-radius: 10px;
     color:white;
     font-weight:700;
+}
+.dream-area {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experince
+{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+.experince-area {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: white;
+}
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-web {
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
